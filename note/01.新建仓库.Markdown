@@ -1,0 +1,15 @@
+## 新建仓库
+
+1. 新建远程仓库
+2. 本地创建文件夹
+    1. git init
+    2. 在本地仓库创建一个文件，如 README.md
+    3. git commit -m "first commit"
+    4. git branch -M main 
+        > 默认init的本地仓库为master，在tree为clear状态下通过该命令可修改当前分支名
+        - git branch -m oldName newName 
+            > 分支重命名
+    5. git remote add origin 远程仓库地址 
+    6. git push -u origin main
+        > 将本地的master分支推送到origin主机，同时指定origin为默认主机，后面就可以不加任何参数使用git push了
+
