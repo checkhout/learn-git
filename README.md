@@ -1,4 +1,8 @@
-## 测试编辑器Update Project功能是否执行了pull操作
+## webStorm 常用快捷键
+
+- Ctrl + K === commit
+- Ctrl + shift + K === push
+- Ctrl + T === pull
 
 
 
